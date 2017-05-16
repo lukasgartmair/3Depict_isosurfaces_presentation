@@ -1,0 +1,11 @@
+*.o
+3Depict
+*.am
+*.in
+*.ico
+*.rc
+*.Po
+*.wxg
+*.dirstamp
+*.vdb
+*.obj
