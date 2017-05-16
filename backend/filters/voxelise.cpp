@@ -500,7 +500,7 @@ unsigned int VoxeliseFilter::refresh(const std::vector<const FilterStreamData *>
 						std::vector<std::vector<float> > adjacent_voxel_vertices;
 						adjacent_voxel_vertices = CTF::determineAdjacentVoxelVertices(atom_position, voxelsize);
 			
-						// 4th step - assign each of the eight adjacent voxels the corresponding contribution that results from the atom position in the unit voxel
+						// 4th step - assign each of the 8 adjacent voxels the corresponding contribution that results from the atom position in the unit voxel
 						const int number_of_adjacent_voxels = 8;
 						std::vector<float> current_voxel_index;
 						for (int i=0;i<number_of_adjacent_voxels;i++)
